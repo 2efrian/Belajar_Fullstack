@@ -1,0 +1,12 @@
+GET http://localhost:5000/users
+
+###
+
+POST GET http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name" : "Zefrian Wafilma Iksan",
+    "email" : "zefrianwafilma@gmail.com",
+    "gender" : "Male"
+}
